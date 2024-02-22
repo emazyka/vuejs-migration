@@ -132,7 +132,7 @@ Vue 2.7 is the final minor release of Vue 2.x
 
 Received 18 months of LTS
 
-DX gap between the two major versions are no longer that prominent
+DX gap, no longer that prominent
 
 </v-clicks>
 
@@ -169,7 +169,7 @@ growY: 50
 
 <div mt-6>Available in all distribution channels</div>
 <div mt-2>Will no longer receive updates</div>
-<div mt-2>Will be hard to find compatible packages</div>
+<div mt-2>Hard to find compatible packages</div>
 <div mt-2>Security and browser compatibility fixes, with SLAs by <b>HeroDevs</b></div>
 
 </v-clicks>
@@ -243,7 +243,7 @@ Upgrade to Vue 2.7
 
 Avoid using the deprecated features or patterns
 
-Continue development with Vue.js 3 future transition in mind
+Continue development with future transition in mind
 
 </v-clicks>
 
@@ -412,7 +412,7 @@ growY: 50
 </h1>
 
 <div absolute left-50 top-80 v-click>Composition API</div>
-<div absolute left-100 top-80 v-click>Composition API Syntax Sugar</div>
+<div absolute left-100 top-80 v-click>Script Setup Syntax Sugar</div>
 
 <v-click>
 <div absolute left-52 top-50>Teleport</div>
@@ -421,12 +421,12 @@ growY: 50
 
 <v-click>
 <div absolute left-137 top-50 >Emits Component Option</div>
-<div absolute left-60 top-90 op80>SFC style scoped rules</div>
+<div absolute left-60 top-90 op80>SFC style scoped rules for slots</div>
 </v-click>
 
 <v-click>
 <div absolute left-85 top-40>State-driven CSS Variables</div>
-<div absolute left-150 top-40 op70>State-driven CSS Variables</div>
+<div absolute left-150 top-40 op70>Multiple v-models</div>
 <div absolute left-125 top-90 op60>Seamless TypeScript Support</div>
 </v-click>
 
@@ -448,7 +448,7 @@ class: text-2xl
     flex="~ col gap-1 items-center"
     :class="$clicks >= 1 ? '' : 'op0 mt--20'"
   >
-    Are there things that many teams need <br/>to repeat the upgrade process? (e.g. seed app)
+    Things that many teams need <br/>to repeat during the upgrade process
   </div>
   <div w-1px h-8 border="l gray" transition-all duration-1000
     :class="$clicks >= 2 ? '' : 'op0 mt--20'"
@@ -458,7 +458,7 @@ class: text-2xl
     flex="~ col gap-1 items-center"
     :class="$clicks >= 2 ? '' : 'op0 mt--20'"
   >
-    Is there Vue.js familiarity on your team?
+    Members familiarity with the framework
   </div>
   <div w-1px h-8 border="l gray" transition-all duration-1000 v-click="3" />
   <div
@@ -466,7 +466,7 @@ class: text-2xl
     flex="~ col gap-1 items-center"
     :class="$clicks >= 3 ? '' : 'op0 mt--20'"
   >
-    Can you break down the work into small tasks<br/>so that many members can contribute to the upgrade?
+    Manageable small tasks
   </div>
 </div>
 
@@ -487,11 +487,13 @@ growY: -10
 
 Which features are deprecated?
 
-Which of them do you utilize in your app?
+Deprecations utilized in your app
 
-Consider enough preparation time for your action plan
+Preparation time for your action plan
 
-Analyze the warnings to refactor your code incrementally
+Dry run - analyze the warnings
+
+Refactor your code incrementally
 
 Tackle warnings in groups
 
@@ -511,13 +513,13 @@ growY: 130
 
 <v-clicks>
 
-Are there components that we need to change 100 times?
+Repetitive work on various components
 
-Can you wrap some components so that you can do the work once?
+Absence of useful abstractions
 
-Is there undocumented behavior?
+Undocumented behavior
 
-Are there private properties being accessed? e.g. on VNodes
+Private properties not mean to be accessed
 
 </v-clicks>
 
@@ -534,15 +536,17 @@ growX: 0
 
 <v-clicks>
 
-Upgrade the dependencies to their latest version, if possible
+Upgrade all dependencies
 
-Identify the dependencies that need to be replaced
+Find dependency bottlenecks
+
+Locate dependencies that need to be replaced
 
 Avoid using the deprecated features and patterns
 
 Create the abstractions you need
 
-Identify commonalities in your approach of addressing issues
+Look for commonalities
 
 </v-clicks>
 
