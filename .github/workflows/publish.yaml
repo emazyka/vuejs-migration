@@ -16,7 +16,7 @@ jobs:
         with:
           node-version: '20.x'
       - run: yarn
-      - run: yarn run build
+      - run: yarn build --base /vuejs-migration-devoxx/
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
