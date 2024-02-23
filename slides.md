@@ -17,11 +17,11 @@ favicon: /vue.svg
 ---
 
 <h1 flex="~ col">
-<div text-4xl op50>Navigating through Vue.js 2 EOL<br/>and Vue 3 Migration</div>
+<div text-4xl op70>Navigating through Vue.js 2 EOL<br/>and Vue 3 Migration</div>
 <div>Beyond the Sunset 🌅</div>
 </h1>
 
-<div uppercase text-sm tracking-widest op50>
+<div uppercase text-sm tracking-widest op70>
 Ema Zyka
 </div>
 
@@ -71,9 +71,9 @@ style: 'padding-left: 9rem;'
 </div>
 
 <div my-10 w-min flex="~ gap-1" items-center justify-center>
-  <div i-logos-linkedin-icon op50 ma text-xl />
+  <div i-logos-linkedin-icon op70 ma text-xl />
   <div><a href="https://www.linkedin.com/in/emazyka" target="_blank" class="border-none! font-300">emazyka</a></div>
-  <div i-ri-github-line op50 ma text-xl ml4/>
+  <div i-ri-github-line op70 ma text-xl ml4/>
   <div><a href="https://github.com/emazyka" target="_blank" class="border-none! font-300">emazyka</a></div>
 </div>
 
@@ -97,7 +97,7 @@ layout: intro
 class: company-logo-top-right text-2xl
 ---
 
-Allwyn Lottery Solutions{.op50.text-2xl}
+Allwyn Lottery Solutions{.op70.text-2xl}
 
 <h2 important-text-5xl important-mt-0>Innovating in<br/>Lottery and Gaming</h2>
 
@@ -120,7 +120,7 @@ growX: -10
 growY: 50
 ---
 
-#### Vue.js 2 EOL {.op60}
+#### Vue.js 2 EOL {.op70}
 
 ## What does this mean? <div i-logos-vue text-2xl inline-block />
 
@@ -159,7 +159,7 @@ growX: 100
 growY: 50
 ---
 
-#### Vue.js 2.7 {.op60}
+#### Vue.js 2.7 {.op70}
 
 ## Expectations
 
@@ -180,7 +180,7 @@ growX: 100
 growY: 5
 ---
 
-#### Should I upgrade? {.op60}
+#### Should I upgrade? {.op70}
 
 ## Things to consider
 
@@ -231,7 +231,7 @@ layout: intro
 class: text-2xl
 ---
 
-#### Remaining in Vue.js 2{.op60}
+#### Remaining in Vue.js 2{.op70}
 
 <h2 important-text-5xl important-mt-0>What should I do?</h2>
 
@@ -313,7 +313,7 @@ growY: 100
                     <img src="/vue.svg" h6 mr1 inline-block /> Vue CLI 
                 </div>
                 <div>
-                    <div i-carbon-arrow-right text-xl op50/>
+                    <div i-carbon-arrow-right text-xl op70/>
                 </div>
                 <div>
                     <img src="/vite.svg" h9 mr1 inline-block /> Vite
@@ -329,7 +329,7 @@ growY: 100
                     <img src="/vue.svg" h6 mr1 inline-block /> Vuex 
                 </div>
                 <div>
-                    <div i-carbon-arrow-right text-xl op50/>
+                    <div i-carbon-arrow-right text-xl op70/>
                 </div>
                 <div>
                     <img src="/pinia.svg" h9 mr1 inline-block /> Pinia
@@ -345,7 +345,7 @@ growY: 100
                     <img src="/vue.svg" h6 mr1 inline-block /> @vue/babel-preset-jsx 
                 </div>
                 <div>
-                    <div i-carbon-arrow-right text-xl op50/>
+                    <div i-carbon-arrow-right text-xl op70/>
                 </div>
                 <div>
                     <img src="/vue.svg" h6 mr1 inline-block /> @vue/babel-plugin-jsx
@@ -363,7 +363,7 @@ growY: 100
                     <img src="/vue.svg" h6 mr1 inline-block /> Vetur 
                 </div>
                 <div>
-                    <div i-carbon-arrow-right text-xl op50/>
+                    <div i-carbon-arrow-right text-xl op70/>
                 </div>
                 <div>
                     <img src="/volar.svg" h9 mr1 inline-block /> Volar 
@@ -389,7 +389,7 @@ growY: 100
                     <img src="/vuepress.png" h12 mr1 inline-block /> VuePress 
                 </div>
                 <div>
-                    <div i-carbon-arrow-right text-xl op50/>
+                    <div i-carbon-arrow-right text-xl op70/>
                 </div>
                 <div>
                     <img src="/vitepress.svg" h10 mr1 inline-block /> VitePress
@@ -427,7 +427,7 @@ growY: 50
 <v-click>
 <div absolute left-85 top-40>State-driven CSS Variables</div>
 <div absolute left-150 top-40 op70>Multiple v-models</div>
-<div absolute left-125 top-90 op60>Seamless TypeScript Support</div>
+<div absolute left-125 top-90 op70>Seamless TypeScript Support</div>
 </v-click>
 
 <v-click>
@@ -440,7 +440,7 @@ layout: intro
 class: text-2xl
 ---
 
-#### Where to begin with? Consider the team effort {.op60}
+#### Where to begin with? Consider the team effort {.op70}
 
 <div flex="~ col gap-5 items-center justify-center" h="90%" mt22 text-center>
   <div
@@ -477,7 +477,7 @@ growX: 60
 growY: -10
 ---
 
-#### Navigating Through Deprecated Features and Patterns {.op60}
+#### Navigating Through Deprecated Features and Patterns {.op70}
 
 <h2 important-text-5xl important-mt-0>Clear understanding</h2>
 
@@ -505,7 +505,7 @@ growX: 50
 growY: 130
 ---
 
-#### Prepare the state of your app {.op60}
+#### Prepare the state of your app {.op70}
 
 <h2 important-text-5xl important-mt-0>How well is your app maintained?</h2>
 
@@ -528,7 +528,7 @@ class: h-full text-2xl
 growX: 0
 ---
 
-#### Prepare the state of your app {.op60}
+#### Prepare the state of your app {.op70}
 
 <h2 important-text-5xl important-mt-0>Facilitating a gradual upgrade</h2>
 
@@ -555,7 +555,7 @@ layout: intro
 class: text-2xl
 ---
 
-#### Strategy {.op60}
+#### Strategy {.op70}
 
 <h2 important-text-5xl important-mt-0>Continuous development</h2>
 
@@ -578,7 +578,7 @@ growX: 50
 growY: 50
 ---
 
-#### Compatibility mode {.op60}
+#### Compatibility mode {.op70}
 
 <h2 important-text-5xl important-mt-0>The migration build</h2>
 
@@ -591,7 +591,7 @@ layout: center
 class: text-2xl
 ---
 
-#### Compatibility mode {.op60}
+#### Compatibility mode {.op70}
 
 <h2 important-text-5xl important-mt-0>What to expect from it?</h2>
 
@@ -620,7 +620,7 @@ growX: -10
 growY: 50
 ---
 
-#### Compatibility mode {.op60}
+#### Compatibility mode {.op70}
 
 <h2 important-text-5xl important-mt-0>Note-worthy limitations</h2>
 
@@ -635,7 +635,7 @@ layout: intro
 class: text-2xl
 ---
 
-#### Compatibility mode {.op60}
+#### Compatibility mode {.op70}
 
 <h2 important-text-5xl important-mt-0>Remove dependencies</h2>
 
@@ -652,7 +652,7 @@ growX: -10
 growY: 50
 ---
 
-#### Compatibility mode {.op60}
+#### Compatibility mode {.op70}
 
 <h2 important-text-5xl important-mt-0>Activating the migration Build</h2>
 
@@ -674,7 +674,7 @@ layout: center
 class: text-2xl
 ---
 
-#### Build configuration {.op60}
+#### Build configuration {.op70}
 
 <h2 important-text-5xl important-mt-0>Resolve Vue</h2>
 
@@ -699,7 +699,7 @@ layout: center
 class: text-2xl
 ---
 
-#### Modify Vue's typing {.op60}
+#### Modify Vue's typing {.op70}
 
 <h2 important-text-5xl important-mt-0>Expose the default export</h2>
 
@@ -790,7 +790,7 @@ layout: center
 class: text-2xl
 ---
 
-#### Compat Configuration {.op60}
+#### Compat Configuration {.op70}
 
 ## Per-Component Config
 
@@ -814,7 +814,7 @@ layout: center
 class: text-2xl
 ---
 
-#### Compat Configuration {.op60}
+#### Compat Configuration {.op70}
 
 ## Compiler-specific Config
 
@@ -850,7 +850,7 @@ growX: -10
 growY: 50
 ---
 
-#### Example Configs {.op60}
+#### Example Configs {.op70}
 
 ## Vue CLI
 
@@ -887,7 +887,7 @@ growX: -10
 growY: 50
 ---
 
-#### Example Configs {.op60}
+#### Example Configs {.op70}
 
 ## Vite
 
@@ -923,7 +923,7 @@ growX: 50
 growY: 50
 ---
 
-#### Resolve compiler warnings {.op60}
+#### Resolve compiler warnings {.op70}
 
 <h2 important-text-4xl important-mt-0>Fixing</h2>
 
@@ -1019,7 +1019,7 @@ layout: center
 class: text-2xl
 ---
 
-#### Vue 3 compatible {.op60}
+#### Vue 3 compatible {.op70}
 
 <h2 important-text-5xl important-mt-0>Upgrade your dependencies</h2>
 
@@ -1029,7 +1029,7 @@ layout: center
 class: text-2xl
 ---
 
-#### Breaking Changes {.op60}
+#### Breaking Changes {.op70}
 
 ## Documentation structure
 
@@ -1052,7 +1052,7 @@ layout: center
 class: text-2xl
 ---
 
-#### Vue.js 2.x <sup bg-cyan bg-op-80 rd-1 text-2 uppercase fw-semibold p-0.6>filters</sup> {.op60}
+#### Vue.js 2.x <sup bg-cyan bg-op-80 rd-1 text-2 uppercase fw-semibold p-0.6>filters</sup> {.op70}
 
 ## Removed APIs
 
@@ -1089,7 +1089,7 @@ layout: center
 class: text-2xl
 ---
 
-#### Vue.js 3.x <sup bg-cyan bg-op-80 rd-1 text-2 uppercase fw-semibold p-0.6>filters</sup> {.op60}
+#### Vue.js 3.x <sup bg-cyan bg-op-80 rd-1 text-2 uppercase fw-semibold p-0.6>filters</sup> {.op70}
 
 ## Removed APIs
 
@@ -1127,7 +1127,7 @@ growX: 70
 growY: 60
 ---
 
-### Good job! {.op60}
+### Good job! {.op70}
 
 <h2 important-text-5xl important-mt-0>Finally</h2>
 
