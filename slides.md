@@ -26,7 +26,7 @@ Ema Zyka
 </div>
 
 <div abs-br mx-26 my-16 flex="~ col gap-4 items-end" text-left>
-  <img src="vuejs-athens-logo-white.svg" h-12 alt="VueJS Athens">
+  <img src="/vuejs-athens-logo-white.svg" h-12 alt="VueJS Athens">
   <div text-xs opacity-75>Apr 19th 2024</div>
 </div>
 
