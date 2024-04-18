@@ -17,8 +17,8 @@ favicon: /vue.svg
 ---
 
 <h1 flex="~ col">
-<div text-4xl op70>Navigating through Vue.js 2 EOL<br/>and Vue 3 Migration</div>
-<div>Beyond the Sunset 🌅</div>
+<div text-4xl op70>Quick dive</div>
+<div>Vue migration</div>
 </h1>
 
 <div uppercase text-sm tracking-widest op70>
@@ -26,28 +26,9 @@ Ema Zyka
 </div>
 
 <div abs-br mx-26 my-16 flex="~ col gap-4 items-end" text-left>
-  <img src="/Voxxed-Days-Ioannina-logo-white-trans-300x84.png" h-12 alt="Devoxx Ioannina">
-  <div text-xs opacity-75 mt--4>Feb. 23rd 2024</div>
+  <img src="vuejs-athens-logo-white.svg" h-12 alt="VueJS Athens">
+  <div text-xs opacity-75>Apr 19th 2024</div>
 </div>
-
-<!--
-Good afternoon - thank you<br/>
-developers explore journey - avoiding<br/>
-But EOL Dec 2023<br/>
-prepare ourselves<br/>
-better face upgrade efforts<br/>
-
-navigate nuances migration<br/>
-ensuring we leave this room with a roadmap<br/>
-makes the journey<br/>
-less like a chore<br/>
-more like an exciting puzzle<br/>
-solve efficiently and effectively<br/>
-
-transitioning - not merely about adopting a new version<br/>
-leveraging the significant improvements V3 offers<br/>
-all promise - elevate our development practices
--->
 
 ---
 layout: intro
@@ -78,19 +59,6 @@ style: 'padding-left: 9rem;'
 </div>
 
 <img src="/ema-zyka-2022-b.jpg" rounded-full w-50 abs-tr mt-32 mr-40 />
-
-<!--
-Let me introduce myself<br/>
-My name is Ema Zyka<br/>
-a lead software engineer ALS<br/>
-Vue.js enthusiast<br/>
-Beyond my role at ALS<br/>
-where we innovate in the lottery and gaming sector<br/>
-I like web technologies and frameworks<br/>
-my Vue.js journey rewarding & long<br/>
-co-organizer of the Vue.js Athens meetup<br/>
-connect - share - learn
--->
 
 ---
 layout: intro
@@ -135,22 +103,6 @@ Received 18 months of LTS
 DX gap, no longer that prominent
 
 </v-clicks>
-
-<!--
-
-With Vue.js 2 reaching its end-of-life (EOL), it signifies a pivotal moment for developers and projects relying on this
-version.
-
-Vue 2.7 is the current, and final minor release of Vue 2.x.
-
-Vue 2.7 received 18 months of LTS (long-term support) starting from its release date on July, 2022
-
-During that period, Vue 2 received necessary bug and security fixes, but did no longer receive new features.
-
-So what does this mean for us?
-
-Due to 2.7, the DX gap between the two major versions are no longer that prominent
--->
 
 ---
 layout: intro
