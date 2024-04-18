@@ -66,3 +66,16 @@ iframe {
   background-repeat: no-repeat;
   background-size: contain;
 }
+
+
+.slidev-page.vuejs-athens-logo-top-right:after {
+  content: '';
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  top: 30px;
+  right: 40px;
+  background-image: url(/vuejs-athens-logo-white.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}

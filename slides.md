@@ -2,7 +2,7 @@
 layout: intro
 title: Beyond the Sunset
 titleTemplate: '%s - Vue.js'
-class: company-logo-top-right
+class: vuejs-athens-logo-top-right
 author: Ema Zyka
 highlighter: shiki
 presenter: true
@@ -20,15 +20,6 @@ favicon: /vue.svg
 <div text-4xl op70>Quick dive</div>
 <div>Vue migration</div>
 </h1>
-
-<div uppercase text-sm tracking-widest op70>
-Ema Zyka
-</div>
-
-<div abs-br mx-26 my-16 flex="~ col gap-4 items-end" text-left>
-  <img src="/vuejs-athens-logo-white.svg" h-12 alt="VueJS Athens">
-  <div text-xs opacity-75>Apr 19th 2024</div>
-</div>
 
 ---
 layout: intro
@@ -71,133 +62,11 @@ Allwyn Lottery Solutions{.op70.text-2xl}
 
 <div mt-10 />
 
-<v-clicks>
-
 Commited to responsible gaming
 
 Engaging experiences for players
 
 Forefront of technological advancements
-
-</v-clicks>
-
----
-layout: intro
-class: text-2xl
-growX: -10
-growY: 50
----
-
-#### Vue.js 2 EOL {.op70}
-
-## What does this mean? <div i-logos-vue text-2xl inline-block />
-
-<div mt-10 />
-
-<v-clicks>
-
-Vue 2.7 is the final minor release of Vue 2.x
-
-Received 18 months of LTS
-
-DX gap, no longer that prominent
-
-</v-clicks>
-
----
-layout: intro
-class: text-2xl
-growX: 100
-growY: 50
----
-
-#### Vue.js 2.7 {.op70}
-
-## Expectations
-
-<div mt-10 />
-
-<v-clicks>
-
-<div mt-6>Available in all distribution channels</div>
-<div mt-2>Will no longer receive updates</div>
-<div mt-2>Hard to find compatible packages</div>
-<div mt-2>Security and browser compatibility fixes, with SLAs by <b>HeroDevs</b></div>
-
-</v-clicks>
----
-layout: intro
-class: text-2xl
-growX: 100
-growY: 5
----
-
-#### Should I upgrade? {.op70}
-
-## Things to consider
-
-<div mt-10 />
-
-<div flex="~ gap-1">
-<v-clicks>
-    <div>
-        App stability<br/>
-        Test Coverage<br/>
-        App resilience to changes<br/>
-        Regressing the app<br/>
-        Continued feature development<br/>
-    </div>
-    <div>
-        Pain-points addressed by upgrading<br/>
-        Non compatible dependencies<br/>
-        Changed behavior between the 2 major versions<br/>
-        The cost of upgrading<br/>
-        Team allocation<br/>
-    </div>
-</v-clicks>
-</div>
-
-
-<!--
-Ask your team these questions: is the app stable and working well?
-
-Does the app expect continued new feature development into the future?
-
-Is there a pain-point / bottleneck that can only be solved by upgrading?
-
-Understand the cost of upgrading
-
-Does the app rely on 3rd party dependencies that are hard to be made Vue 3 compatible?
-
-Does the app rely heavily on changed behavior between Vue 2 and Vue 3?
-
-Can the team allocate dedicated time for upgrading?
-
-There can't be any precise formula to make these assesments, but hopefully such questions will help you in the decision
-making.
-
--->
-
----
-layout: intro
-class: text-2xl
----
-
-#### Remaining in Vue.js 2{.op70}
-
-<h2 important-text-5xl important-mt-0>What should I do?</h2>
-
-<div mt-10 />
-
-<v-clicks>
-
-Upgrade to Vue 2.7
-
-Avoid using the deprecated features or patterns
-
-Continue development with future transition in mind
-
-</v-clicks>
 
 ---
 layout: center
@@ -233,6 +102,43 @@ growY: 100
         <div>Small learning curve</div>
     </div>
 </div>
+
+
+---
+layout: center
+growX: 50
+growY: 50
+---
+
+<h1 font-bold class="text-5xl!" flex="~ gap-3 items-center">
+  <span v-click>Vue.js 3</span>
+  <div i-logos-vue text-6xl inline-block />
+  <span v-after>Features</span>
+</h1>
+
+<div absolute left-50 top-80 v-click>Composition API</div>
+<div absolute left-100 top-80 v-click>Script Setup Syntax Sugar</div>
+
+<v-click>
+<div absolute left-52 top-50>Teleport</div>
+<div absolute left-85 top-50>createRenderer API</div>
+</v-click>
+
+<v-click>
+<div absolute left-137 top-50 >Emits Component Option</div>
+<div absolute left-60 top-90 op80>SFC style scoped rules for slots</div>
+</v-click>
+
+<v-click>
+<div absolute left-85 top-40>State-driven CSS Variables</div>
+<div absolute left-150 top-40 op70>Multiple v-models</div>
+<div absolute left-125 top-90 op70>Seamless TypeScript Support</div>
+</v-click>
+
+<v-click>
+<div absolute left-180 top-80>Fragments</div>
+<div absolute left-55 top-40 op70>Suspense</div>
+</v-click>
 
 ---
 
@@ -352,114 +258,12 @@ growY: 100
 </div>
 
 ---
-layout: center
-growX: 50
-growY: 50
----
-
-<h1 font-bold class="text-5xl!" flex="~ gap-3 items-center">
-  <span v-click>Vue.js 3</span>
-  <div i-logos-vue text-6xl inline-block />
-  <span v-after>Features</span>
-</h1>
-
-<div absolute left-50 top-80 v-click>Composition API</div>
-<div absolute left-100 top-80 v-click>Script Setup Syntax Sugar</div>
-
-<v-click>
-<div absolute left-52 top-50>Teleport</div>
-<div absolute left-85 top-50>createRenderer API</div>
-</v-click>
-
-<v-click>
-<div absolute left-137 top-50 >Emits Component Option</div>
-<div absolute left-60 top-90 op80>SFC style scoped rules for slots</div>
-</v-click>
-
-<v-click>
-<div absolute left-85 top-40>State-driven CSS Variables</div>
-<div absolute left-150 top-40 op70>Multiple v-models</div>
-<div absolute left-125 top-90 op70>Seamless TypeScript Support</div>
-</v-click>
-
-<v-click>
-<div absolute left-180 top-80>Fragments</div>
-<div absolute left-55 top-40 op70>Suspense</div>
-</v-click>
-
----
-layout: intro
-class: text-2xl
----
-
-#### Where to begin with? Consider the team effort {.op70}
-
-<div flex="~ col gap-5 items-center justify-center" h="90%" mt22 text-center>
-  <div
-    transition-all duration-1000
-    flex="~ col gap-1 items-center"
-    :class="$clicks >= 1 ? '' : 'op0 mt--20'"
-  >
-    Things that many teams need <br/>to repeat during the upgrade process
-  </div>
-  <div w-1px h-8 border="l gray" transition-all duration-1000
-    :class="$clicks >= 2 ? '' : 'op0 mt--20'"
-   />
-  <div
-    transition-all duration-1000
-    flex="~ col gap-1 items-center"
-    :class="$clicks >= 2 ? '' : 'op0 mt--20'"
-  >
-    Members familiarity with the framework
-  </div>
-  <div w-1px h-8 border="l gray" transition-all duration-1000 v-click="3" />
-  <div
-    transition-all duration-1000
-    flex="~ col gap-1 items-center"
-    :class="$clicks >= 3 ? '' : 'op0 mt--20'"
-  >
-    Manageable small tasks
-  </div>
-</div>
-
----
-layout: intro
-class: text-2xl
-growX: 60
-growY: -10
----
-
-#### Navigating Through Deprecated Features and Patterns {.op70}
-
-<h2 important-text-5xl important-mt-0>Clear understanding</h2>
-
-<div mt-10 />
-
-<v-clicks>
-
-Which features are deprecated?
-
-Deprecations utilized in your app
-
-Preparation time for your action plan
-
-Dry run - analyze the warnings
-
-Refactor your code incrementally
-
-Tackle warnings in groups
-
-</v-clicks>
-
----
 class: h-full text-2xl
 growX: 50
 growY: 130
 ---
 
-#### Prepare the state of your app {.op70}
-
-<h2 important-text-5xl important-mt-0>How well is your app maintained?</h2>
+# Prepare the state of your app
 
 <div mt-10 />
 
@@ -913,7 +717,7 @@ class: text-xl
 
 Note there will be no runtime warnings for this
 
-Fix this upfront by searching the codebase for 
+Fix this upfront by searching the codebase for
 
 `*-enter` CSS class names
 
@@ -1097,9 +901,9 @@ growY: 120
 ---
 
 # Thank You!
-<img src="/logo-w.png" w55 inline-block />
+<img src="/vuejs-athens-logo-white.svg" h15 inline-block />
 
 <div mt5>
-<h5 opacity-60>@emazyka</h5>
-<div>Slides on <a href="https://github.com/emazyka" target="_blank">Github</a></div>
+    <h5 opacity-60>@emazyka</h5>
+    <div>Slides on <a href="https://github.com/emazyka" target="_blank">Github</a></div>
 </div>
